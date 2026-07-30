@@ -1,8 +1,29 @@
 aid: kibin
 name: Kibin
-description: Kibin is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Kibin is a consumer study and academic-writing company operating at kibin.com,
+  trusted by students since 2011. Its newest product is an AI-powered study
+  partner (iOS app) that turns lectures, notes, PDFs, and YouTube videos into
+  personalized study guides, quizzes, flashcards, transcripts, and explanations
+  to help students learn faster and build mastery. Alongside the study app,
+  Kibin also runs its long-standing academic-writing surface — professional
+  essay editing, a paper grader, a thesis-statement generator, essay examples,
+  and a writing blog. Kibin is a B2C, mobile- and web-delivered product with no
+  public developer API, SDK, or developer portal at this time; it is tracked in
+  the API Evangelist network as a portfolio company of 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/kibin/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://app.kibin.com/opengraph-image.png?opengraph-image.5adc116a.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- EdTech
+- Study Tools
+- AI Study Assistant
+- Academic Writing
+- Essay Editing
+- Flashcards
+- Students
+- Consumer App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,26 @@ maintainers:
 common:
 - type: Website
   url: https://kibin.com
+- type: About
+  url: https://kibin.com/about
+- type: Blog
+  url: https://kibin.com/blog
+- type: Support
+  url: https://kibin.com/contact
+- type: SignUp
+  url: https://kibin.com/signup
+- type: Login
+  url: https://kibin.com/login
+- type: PrivacyPolicy
+  url: https://kibin.com/privacy
+- type: TermsOfService
+  url: https://kibin.com/terms
+- type: AppStore
+  url: https://apps.apple.com/us/app/kibin-your-ai-study-tool/id6761867175
+- type: DomainSecurity
+  url: security/kibin-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
